@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day Trip</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1 class="h1">My Day-Trip to the Smithsonian</h1>
+    </header>
+    <main>
+      <section class="section-elem">
+        <h2>Highlights (Flex-Box):</h2>
+        <div class="flex-box">
+          <img
+            class="image-elem"
+            src="https://www.si.edu/sites/default/files/styles/grid/public/baby_elephant_zoo.jpg.webp?h=c776c18c&itok=jpJ5WFsK"
+            alt="playing with real elephants"
+          />
+          <img
+            class="image-elem"
+            src="https://www.si.edu/sites/default/files/styles/grid/public/teaser/mlk2-630x4461.jpg.webp?h=3742692f&itok=dIk--0qY"
+            alt="learned a lot about history"
+          />
+          <img
+            class="image-elem"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqdHQnMIX3dhai19t1jbigTOZmIZXGIgfLHw&s"
+            alt="saw some crazy artifacts"
+          />
+          <!-- <p class="image-p">saw some crazy artifacts</p> -->
+        </div>
+      </section>
+
+      <section class="section-elem">
+        <h2>Summary of Trip (Inline vs Block):</h2>
+        <span class="dif-text"
+          >Below are a few examples of some Inline and Block Elements</span
+        >
+
+        <h3 class="inline-block-example-heading-font">
+          So, What did I do today? - Inline Example
+        </h3>
+        <p class="p-text-inline">
+          Today, I visited the
+          <a href="https://www.si.edu/visit/museums">Smithsonian</a> and had
+          such a <span class="pop-text">&lt;&lt;BLAST!&gt;&gt;</span> learning
+          about animals, history and the architecture and design of the museums.
+        </p>
+
+        <h3 class="inline-block-example-heading-font">
+          What did I eat? - Block Example
+        </h3>
+        <p class="p-text-block">I ate a BUFFALO BURGER!</p>
+        <p class="p-text-block">
+          Then I had some delicious ice cream with ANCIENT GRAINS!
+        </p>
+        <div class="div-text-block">
+          AND FINALLY I HAD SOME LION BONE MARROW ON TOAST FOR DINNER!
+        </div>
+      </section>
+
+      <section class="section-elem">
+        <h2>Sign-up to Read More! (Form)</h2>
+        <form class="form" action="#">
+          <label class="field">
+            First Name
+            <input
+              placeholder="Enter your first name..."
+              required
+              type="text"
+              name="first-name"
+              id="first-name"
+              autofocus
+            />
+          </label>
+          <label class="field">
+            Last Name
+            <input
+              placeholder="Enter your last name..."
+              required
+              type="text"
+              name="last-name"
+              id="last-name"
+            />
+          </label>
+          <label class="field">
+            Email
+            <input
+              placeholder="Enter your email..."
+              type="email"
+              name="email"
+              id="email"
+              required
+              aria-describedby="email-help"
+            />
+          </label>
+          <label class="field">
+            Phone Number
+            <input
+              placeholder="Enter your phone #..."
+              type="number"
+              name="phone-number"
+              id="phone-number"
+              required
+              aria-describedby="phone-number-help"
+            />
+          </label>
+          <div class="field">
+            <label id="submit-button-label" for="submit-button"
+              >Follow Me For More!</label
+            >
+            <button name="submit-button" id="submit-button">Submit</button>
+          </div>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <pre class="quote">
+“The purpose of life, <br> after all, is to live it, <br> to taste experience to the utmost, <br> to reach out eagerly and without fear <br> for newer and richer experience,”</pre>
+      <p class="elanor-name">-Elanor Rosevelt</p>
+    </footer>
+  </body>
+</html>

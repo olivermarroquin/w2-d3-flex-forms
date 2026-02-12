@@ -1,0 +1,115 @@
+.h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 45px;
+}
+
+.flex-box {
+  display: flex;
+  align-items: center;
+  /* When 'flex-direction: row': main axis is horizontal (left to right), center axis is vertical (top to bottom)
+    So justify-content controls movement left to right, while align-items controls movement up and down */
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  gap: 100px;
+  /* To see what align-items is doing, uncomment the code below */
+  /* height: 300px;
+  background-color: aqua; */
+
+  /* When 'flex-direction: column': main axis is horizontal (up and down), center axis is horizontal (left to right)
+    So justify-content controls movement top to bottom, while align-items controls movement left and right */
+  /* flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px; */
+}
+
+.image-elem {
+  width: 200px;
+  height: 200px;
+}
+
+/* I was using this commented code to see the 'align-item: flex-start and flex-end' in action (more noticeable): */
+/* .image-elem:nth-child(2) {
+  height: 300px;
+  width: 300px;
+} */
+
+.dif-text {
+  font-weight: 600;
+  font-style: italic;
+  font-size: 20px;
+  color: rgb(8, 122, 253);
+}
+
+.inline-block-example-heading-font {
+  color: red;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.pop-text {
+  font-weight: 900;
+  font-size: 24px;
+  color: green;
+}
+
+.p-text-inline {
+  font-size: 20px;
+}
+
+.p-text-block {
+  font-size: 20px;
+  background-color: burlywood;
+}
+
+.div-text-block {
+  font-size: 30px;
+  background-color: salmon;
+}
+
+.section-elem {
+  padding: 20px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+  gap: 5px;
+}
+
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 40px;
+  margin-bottom: 200px;
+}
+
+#submit-button-label {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.quote {
+  display: flex;
+  justify-content: center;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 36px;
+  font-style: italic;
+  margin-left: 200px;
+  margin-bottom: 100px;
+}
+
+.elanor-name {
+  display: flex;
+  justify-content: center;
+  font-size: 28px;
+  margin-left: 700px;
+  margin-bottom: 300px;
+}
